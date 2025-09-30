@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import "./App.css"; // ADD THIS LINE
 
 const DonorDash = () => <h2>Donor Dashboard</h2>;
 const RecipientDash = () => <h2>Recipient Dashboard</h2>;
