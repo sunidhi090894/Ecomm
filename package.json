@@ -1,0 +1,11 @@
+{
+  "name": "ecomm-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run start --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "test": "npm run test --prefix frontend",
+    "install:frontend": "npm install --prefix frontend"
+  }
+}
